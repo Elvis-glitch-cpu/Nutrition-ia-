@@ -27,7 +27,7 @@ if photo:
         with st.spinner("Analyse de la valeur nutritionnelle en cours..."):
             try:
                 # Utilisation du modèle vision
-                model = genai.GenerativeModel("gemini-1.5-flash")
+                model = genai.GenerativeModel("gemini-1.5-flash-latest")
                 
                 prompt = """
                 Tu es un expert en nutrition compétent, motivant et bienveillant.
